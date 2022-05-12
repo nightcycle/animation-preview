@@ -1,13 +1,16 @@
 [package]
-name = "nightcycle/package"
-description = "A package!"
-version = "4.0.0"
+name = "nightcycle/animation-demo"
+description = "This is a plugin, you can't use it in-game"
+version = "1.0.0"
 authors = ["CJ Oyer <coyer@nightcycle.us>"]
 realm = "shared"
 registry = "https://github.com/upliftgames/wally-index"
 exclude = ["Packages", ".vscode"]
 
 [dependencies]
-coldfusion = "nightcycle/cold-fusion@1.0.0"
-signal = "quenty/signal@^2.0.0-canary"
-maid = "quenty/maid@^2.0.1-canary"
+signal = "quenty/signal@2.0.0-canary"
+maid = "quenty/maid@2.0.1-canary"
+coldfusion = "nightcycle/cold-fusion@1.0.19"
+isotope = "nightcycle/isotope@1.1.15"
+math = "nightcycle/math@2.2.1"
+synthetic = "nightcycle/synthetic@3.0.11"
